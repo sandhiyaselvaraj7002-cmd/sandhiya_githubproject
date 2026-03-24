@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #9b59b6);
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+h2 {
+    text-align: center;
+    color: #6a11cb;
+}
+
+.back {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6a11cb;
+}
+
+.filter-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+select, input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #6a11cb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box {
+    width: 50%;
+    display: block;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background: #6a11cb;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.present {
+    color: green;
+    font-weight: bold;
+}
+
+.absent {
+    color: red;
+    font-weight: bold;
+}
+
+.present-count {
+    color: green;
+}
+
+.absent-count {
+    color: red;
+}

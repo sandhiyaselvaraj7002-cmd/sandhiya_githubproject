@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Attendance Report</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <a href="dashboard.html" class="back">⬅ Back to Dashboard</a>
+
+    <h2>📊 Attendance Report</h2>
+
+    <!-- Fake Filter Section (UI only) -->
+    <div class="filter-box">
+        <label>Select Course:</label>
+        <select>
+            <option>Python (CSE - A)</option>
+            <option>DBMS (CSE - A)</option>
+        </select>
+
+        <label>Select Date:</label>
+        <input type="date">
+
+        <button>View Report</button>
+    </div>
+
+    <!-- Search Box (UI only) -->
+    <input type="text" placeholder="Search..." class="search-box">
+
+    <!-- Report Table -->
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>101</td>
+            <td>Student 1</td>
+            <td class="present">Present</td>
+        </tr>
+
+        <tr>
+            <td>102</td>
+            <td>Student 2</td>
+            <td class="absent">Absent</td>
+        </tr>
+
+        <tr>
+            <td>103</td>
+            <td>Student 3</td>
+            <td class="present">Present</td>
+        </tr>
+    </table>
+
+    <!-- Summary -->
+    <h3 class="present-count">Total Present: 2</h3>
+    <h3 class="absent-count">Total Absent: 1</h3>
+
+</div>
+
+</body>
+</html>
